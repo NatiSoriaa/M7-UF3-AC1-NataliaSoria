@@ -1,0 +1,12 @@
+Ruta exercici1 = /exercici1/public/index.php
+
+Ruta exercici2 = /exercici2/public/index.php
+
+
+(Carpeta faltante exercici3: vendor)
+Dentro de carpeta exercici3:
+Comando crear DB = php artisan migrate 
+(responder yes para crear db)  
+Comando añadir datos DB = php artisan db:seed
+Comando iniciar servidor = php -S localhost:8080 -t public
+Ruta exercici3 = http://localhost:8080/usuaris
